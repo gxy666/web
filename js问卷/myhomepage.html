@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel = "stylesheet" href = "style.css">
+		<script  src="f.js">
+		</script>
+		<style type="text/css">
+		.box 
+		{
+			width: 600px;
+			border:1px solid #ccc; 
+			overflow: hidden; 
+			background: #fff; 
+			margin: 20px auto;
+			padding: 10px;
+		}
+		span, label
+		{
+			vertical-align:middle;
+		}
+		input[type="checkbox"]
+		{
+			appearance: none; 
+			-webkit-appearance: none;
+			outline: none;
+			display:none
+		}
+		label
+		{
+			display:inline-block;
+			cursor:pointer;
+		}
+		label input[type="checkbox"] + span
+		{
+			width:20px;
+			height:20px;
+			display:inline-block;
+			background:url(input-checkbox.jpg)  
+			no-repeat;background-position:0 0;
+		}
+		label input[type="checkbox"]:checked + span
+		{
+			background-position:0 -21px
+		}
+		</style>
+	</head>
+	
+	<body>
+		<h1 id = h style = "color:blacks; text-align:center">问卷系统 </h1>
+		
+		<hr style = "height:5px; border:none; border-top:5px ridge black;" />
+		
+		<div id = "container" align = "center">
+			<ul id = "menu">
+				<li>
+					<a class = "kai" href = "javascript:void(0);" onclick="loadchoice()">选择题</a></li>
+				<li>
+					<a class = "kai" href = "javascript:void(0);" onclick="loadfill()">填空题</a></li>
+			</ul>
+		</div>
+		<div id = "qu" align = "center" class = "quediv">
+			<img src="wel.png" width="" height="" />
+		</div>
+		<div id = "check" align = "center">
+			<a href = "javascript:void(0);" onclick="checker()" class="button">检查答案</a>
+		</div>
+	</body>
+
+</html>

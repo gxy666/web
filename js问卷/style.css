@@ -1,0 +1,140 @@
+﻿body
+{
+	background:url(bg.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ul 
+{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow:hidden;
+	width:590px;
+	background-color: #87cefa;
+}
+li 
+{
+	float:left;
+	border-right: 2px solid #000000;
+}
+li:last-child 
+{
+	border-right: none;
+}
+li a 
+{
+	display:block;
+	color: black;
+	font-weight:800;
+	text-align:center;
+	padding: 14px 100px;
+	letter-spacing:10px;
+	text-decoration:underline;
+}
+a.kai
+{
+	font-family:"楷体";
+	font-size:20px;
+}
+li a:hover 
+{
+	background-color: #6495ed;
+}
+.checkfont
+{  
+	font-family:"宋体";
+	font-size:15px;
+	font-weight:500;
+}  
+.button 
+{
+	font-size:18px;
+	font-family:Arial;
+	font-weight:normal;
+	-moz-border-radius:29px;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	border:1px solid #337fed;
+	padding:9px 18px;
+	text-decoration:none;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(75%, #3d94f6), color-stop(30%, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 75%, #1e62d0 30% );
+	background:-ms-linear-gradient( top, #3d94f6 75%, #1e62d0 30% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	color:#ffffff;
+	display:inline-block;
+	text-shadow:0px 0px 0px #1570cd;
+ 	-webkit-box-shadow: 1px 0px 0px 0px #97c4fe;
+ 	-moz-box-shadow: 1px 0px 0px 0px #97c4fe;
+ 	box-shadow: 1px 0px 0px 0px #97c4fe;
+}
+.button:hover 
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(75%, #1e62d0), color-stop(30%, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 75%, #3d94f6 30% );
+	background:-ms-linear-gradient( top, #1e62d0 75%, #3d94f6 30% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}
+.button:active 
+{
+	position:relative;
+	top:1px;
+}
+.quediv
+{
+	margin:0 auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	border:5px solid #a5b6c8;
+	background-color:#F5FFFA;
+	width:500px;
+	height:500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
